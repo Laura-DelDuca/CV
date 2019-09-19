@@ -73,7 +73,6 @@ a {
   width: 100%;
   height: 100%;
   padding-bottom: 40px;
-
 }
 
 .text_presentation {
@@ -84,8 +83,8 @@ a {
   margin-top: 150px;
   margin-bottom: 30px;
   color: rgb(212, 207, 207);
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  letter-spacing: 5px; 
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  letter-spacing: 5px;
 }
 
 #adopt {
@@ -121,7 +120,7 @@ h1,
 h2 {
   text-transform: uppercase;
   font-weight: ligther;
-  font-family: 'Jura', sans-serif;
+  font-family: "Jura", sans-serif;
 }
 
 .cv h2 {
@@ -181,7 +180,7 @@ li {
 }
 
 #job {
-  font-style: italic
+  font-style: italic;
 }
 
 .left {
@@ -211,7 +210,7 @@ li {
   font-style: italic;
   font-size: 1.7em;
   text-align: center;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: "Gloria Hallelujah", cursive;
   border-bottom: 1px dotted white;
   padding-bottom: 40px;
 }
@@ -275,7 +274,6 @@ li {
 .programmation {
   padding-top: 40px;
   text-align: center;
-
 }
 
 .skill {
@@ -289,10 +287,10 @@ li {
 }
 
 .html {
-grid-column-start: 1;
-grid-column-end: 2;
-grid-row-start: 1;
-grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .css {
@@ -304,9 +302,9 @@ grid-row-end: 2;
 
 .js {
   grid-column-start: 3;
-grid-column-end: 4;
-grid-row-start: 1;
-grid-row-end: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 .react {
   grid-column-start: 1;
@@ -327,9 +325,8 @@ grid-row-end: 2;
   grid-row-end: 3;
 }
 
-
 #progTitle {
-  margin:0;
+  margin: 0;
 }
 
 #logoWorks {
@@ -346,8 +343,6 @@ grid-row-end: 2;
   color: white;
 }
 
-
-
 .softwares {
   padding-top: 40px;
   border-bottom: 1px dotted white;
@@ -361,7 +356,7 @@ grid-row-end: 2;
 }
 
 #alsoList {
-  line-height: 25px; 
+  line-height: 25px;
 }
 
 .languages {
@@ -405,7 +400,6 @@ grid-row-end: 2;
   line-height: 25px;
 }
 
-
 /* ---------------------- Contact ----------------------  */
 
 .contact {
@@ -424,7 +418,6 @@ grid-row-end: 2;
   margin: 20px auto;
   padding: 10px;
 }
-
 
 .contact a {
   color: white;
