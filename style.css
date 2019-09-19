@@ -72,7 +72,7 @@ a {
 .presentation {
   width: 100%;
   height: 100%;
-  padding-bottom: 100px;
+  padding-bottom: 40px;
 
 }
 
@@ -140,7 +140,7 @@ h3 {
 h4 {
   font-weight: lighter;
   font-size: 1em;
-  font-style: italic;
+  /* font-style: italic; */
   margin-top: -12px;
 }
 
@@ -175,9 +175,13 @@ li {
   grid-row-end: 3;
   text-align: center;
   margin-bottom: 60%;
-  font-style: italic;
+
   font-size: 1.7em;
   padding-top: 10px;
+}
+
+#job {
+  font-style: italic
 }
 
 .left {
@@ -248,6 +252,10 @@ li {
   padding-bottom: 5px;
 }
 
+.activityList {
+  margin-top: 50px;
+}
+
 .right {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -270,15 +278,58 @@ li {
 
 }
 
-.mySkills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.skill {
+  padding-top: 50px;
 }
+
+.mySkills {
+  display: grid;
+  grid-template-columns: 34% 33% 33%;
+  grid-template-rows: 50% 50%;
+}
+
+.html {
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+
+.css {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.js {
+  grid-column-start: 3;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+.react {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.angular {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.github {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+
 
 #progTitle {
   margin:0;
-  padding-bottom: 30px;
 }
 
 #logoWorks {
