@@ -255,6 +255,17 @@ li {
   margin-top: 50px;
 }
 
+#gamflix {
+  margin-top: 5%;
+  margin-bottom: 4%;
+}
+
+#gamflixLink {
+  color: white;
+  text-decoration: none;
+  margin-top: 2%;
+}
+
 .right {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -337,6 +348,11 @@ li {
   color: white;
   padding-right: 15%;
   padding-top: 5%;
+}
+
+#logogitlab {
+  color: white;
+  padding-right: 15%;
 }
 
 #logonpm {
