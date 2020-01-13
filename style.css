@@ -14,6 +14,8 @@ body {
   /* -webkit-animation-delay: 2s;  */
   /* Safari 4.0 - 8.0 */
   /* font-family: 'Jura', sans-serif; */
+  animation: transparence 2s;
+  animation-delay: 2s;
 }
 
 @-webkit-keyframes transparence {
